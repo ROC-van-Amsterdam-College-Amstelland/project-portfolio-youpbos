@@ -37,4 +37,35 @@ li a {
 a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
+    color: white;
+}
+
+#midden{
+    height: 1500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+}
+h1{
+    font-size: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: black;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding: 0%;
+    color: white;
+}
+
+#foto{
+    height: 200px;
+    width: 200px;
+    border-radius: 10000px;
 }

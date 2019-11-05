@@ -81,29 +81,32 @@ h2{
 }
 
 
-
+#overmij{
+    margin-left: 300px;
+    margin-top: 40px;
+}
 
 
 
 #foto1{
-    height: 300px;
-    width: 500px;
+    height: 900px;
+    width: 800px;
 }
 
 #foto2{
-    height: 300px;
-    width: 500px;
+    height: 900px;
+    width: 800px;
     display: none;
 }
 
 #foto3{
-    height: 300px;
-    width: 500px;
+    height: 900px;
+    width: 800px;
     display: none;
 }
 
 #foto4{
-    height: 300px;
-    width: 500px;
+    height: 900px;
+    width: 800px;
     display: none;
 }

@@ -3,6 +3,7 @@ body{
     background-image: url(../plaatjes/background.jpg);
     background-size: 100%;
     display: flex;
+    width: 100%;
 }
 
 
@@ -38,13 +39,13 @@ a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
 }
-
+footer {color:white;}
 #midden{
     height: 100%;
-    width: 1000px;
-    margin-left: 50%;
+    width: 100%;;
     display: inline-block;
 }
+
 
 img{
     height: 600px;
@@ -58,7 +59,14 @@ img{
     margin-left: 26%;
     border-radius: 75px;
 }
-
+header{
+    width:20%;
+}
+main {
+    width:80%;
+    display:flex;
+    flex-direction: column;
+}
 #mijzelf2{
     display: none;
 }
@@ -82,4 +90,31 @@ h2{
     padding: 5px;
     align-items: center;
     align-content: center;
+}
+
+footer{
+    display:flex;
+}
+
+
+#all{
+	width:100%;
+	margin: 0 auto; 
+
+#likes{
+	height:5px;
+	width:50%;
+	background:#0000ee;
+	float:left;
+}
+#dislikes{
+	height:5px;
+	width:50%;
+	background:#ccc;
+	float:right;
+}
+
+#bar{
+	margin:0 auto;
+	width:60%;
 }

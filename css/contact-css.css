@@ -48,19 +48,30 @@ h1{
   justify-items: center;
   color: white;
 }
-
+main {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+}
+#kopText{
+  width:100%;
+  height: 20%;
+}
+.onder{
+  display:flex;
+  width: 100%;
+  height: 80%;
+  justify-content: space-around;
+}
+header {
+  width:20%;
+}
 .links{
   height: 100%;
-  width: 600px;;
-  display: inline-block;
-  padding-left: 300px;
 }
 
 .rechts{
   height: 100%;
-  width: 600px;
-  display: inline-block;
-  padding-left: 600px;
 }
 
 #mijzelf{
@@ -69,8 +80,7 @@ h1{
 }
 
 p{
-  display: flex;
-  flex-direction: column;
+ 
   font-family: Arial, Helvetica, sans-serif;
   font-optical-sizing: 20px;
   color: white;
